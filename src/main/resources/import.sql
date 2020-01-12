@@ -1,0 +1,15 @@
+INSERT INTO regions(id, name) VALUES (1, "Asia");
+INSERT INTO regions(id, name) VALUES (2, "Africa");
+INSERT INTO regions(id, name) VALUES (3, "Europe");
+INSERT INTO regions(id, name) VALUES (4, "Oceania");
+INSERT INTO regions(id, name) VALUES (5, "Antarctic");
+INSERT INTO regions(id, name) VALUES (6, "Caribbean");
+INSERT INTO regions(id, name) VALUES (7, "South America");
+INSERT INTO regions(id, name) VALUES (8, "North America");
+INSERT INTO regions(id, name) VALUES (9, "Central America");
+INSERT INTO clients(name, surname, email, create_at, region_id) VALUES("Marcy", "Arango ", "marcy@gmail.com", "2019-12-28", 1);
+INSERT INTO clients(name, surname, email, create_at, region_id) VALUES("Marcelin", "Varcárcel", "valcarcel@gmail.com", "2019-12-28", 2);
+INSERT INTO clients(name, surname, email, create_at, region_id) VALUES("Marcy", "Arango", "arango@gmail.com", "2019-12-28", 3);
+INSERT INTO clients(name, surname, email, create_at, region_id) VALUES("Marcela", "Varcárcel", "marcela@gmail.com", "2019-12-28", 4);
+INSERT INTO clients(name, surname, email, create_at, region_id) VALUES("Lina", "Varcárcel", "lina@gmail.com", "2019-12-28", 5);
+INSERT INTO clients(name, surname, email, create_at, region_id) VALUES("Marcel", "Arango", "marcel@gmail.com", "2019-12-28", 6);
